@@ -29,6 +29,82 @@
         "blob/1cede6cec57fb16d825ff6035f7237642352a1c3.nq.gz",
         "blob/14b829ae4a8bd0e5c9d793f9e190c09c1a9ea245.nq.gz",
         "blob/cadc6eee85cacc264bb69b8283412ac862ed92c4.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/f96b0752150029af9d1b51e6c77d89940fec0803.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/f96b0752150029af9d1b51e6c77d89940fec0803.nq.gz",
+      "repolex": "aggregate/repolex/f96b0752150029af9d1b51e6c77d89940fec0803.nq.gz",
+      "dep": "dep/f96b0752150029af9d1b51e6c77d89940fec0803.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "urlencoding",
+          "ecosystem": "CARGO",
+          "version": "2.1.3",
+          "githubOrg": "kornelski",
+          "githubRepo": "rust_urlencoding",
+          "githubUrl": "https://github.com/kornelski/rust_urlencoding",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/urlencoding-2.1.3/src/lib.rs"
+        },
+        {
+          "packageName": "indoc",
+          "ecosystem": "CARGO",
+          "version": "2.0.7",
+          "githubOrg": "dtolnay",
+          "githubRepo": "indoc",
+          "githubCommit": "8d78216b3f127f523d198475ea44090f8f6894d5",
+          "githubTag": "2.0.7",
+          "githubUrl": "https://github.com/dtolnay/indoc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indoc-2.0.7/src/lib.rs"
+        },
+        {
+          "packageName": "marked-yaml",
+          "ecosystem": "CARGO",
+          "version": "0.8.0",
+          "githubOrg": "kinnison",
+          "githubRepo": "marked-yaml",
+          "githubUrl": "https://github.com/kinnison/marked-yaml.git",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/marked-yaml-0.8.0/src/spanned_serde.rs"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.228",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+          "githubTag": "v1.0.228",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "2.0.17",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubCommit": "72ae716e6d6a7f7fdabdc394018c745b4d39ca45",
+          "githubTag": "2.0.17",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5.51",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "d89d57dfb4bdd18930a40c6d7f4fadb23ee9c5b3",
+          "githubTag": "v4.5.51",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.5.51/src/lib.rs"
+        }
       ]
     },
     {
