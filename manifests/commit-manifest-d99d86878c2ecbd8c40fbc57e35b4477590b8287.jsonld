@@ -1,0 +1,39 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/asimov-platform/manifest-verifier/commit/d99d86878c2ecbd8c40fbc57e35b4477590b8287",
+  "@type": "git:Commit",
+  "git:hexsha": "d99d86878c2ecbd8c40fbc57e35b4477590b8287",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/asimov-platform/manifest-verifier"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/d99d86878c2ecbd8c40fbc57e35b4477590b8287.nq.gz",
+      "repolex:graphFileSize": 2895
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 780
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 420
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 310
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-04-03T01:11:38.146932+00:00",
+  "repolex:parserVersion": "0.1.0",
+  "git:tagName": "0.1.1"
+}
